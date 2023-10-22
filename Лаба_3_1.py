@@ -1,7 +1,7 @@
 # TODO Напишите функцию для поиска индекса товара
 def poisk(list, element):
     for i in range(len(list)):
-        if list[i] is element:
+        if list[i] == element:
             return i
 
 
